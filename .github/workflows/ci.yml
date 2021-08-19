@@ -1,0 +1,56 @@
+on:
+  push:
+    branches: 
+      - master
+  pull_request:
+
+name: Tests
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+
+      - name: Install node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10
+
+      - name: Install ganache
+        run: npm install -g ganache-cli
+
+      - name: Install Solc
+        run: |
+          mkdir -p "$HOME/bin"
+          wget -q https://github.com/ethereum/solidity/releases/download/v0.7.6/solc-static-linux -O $HOME/bin/solc
+          chmod u+x "$HOME/bin/solc"
+          export PATH=$HOME/bin:$PATH
+
+      - name: Install mdbook
+        run: |
+          mkdir bin
+          curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.5/mdbook-v0.4.5-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
+          echo "$(pwd)/bin" >> ${GITHUB_PATH}
+
+      - name: Report versions
+        run: |
+          export PATH=$HOME/bin:$PATH
+          rustup --version
+          rustc -Vv
+          mdbook --version
+          solc --version
+          ganache-cli --version
+
+      ## TODO: Add linting + spellcheck step
+
+      - name: Run tests
+        run: |
+          export PATH=$HOME/bin:$PATH
+          mdbook test

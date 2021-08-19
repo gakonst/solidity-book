@@ -1,0 +1,10 @@
+[package]
+name = "rust-ethereum-book"
+version = "0.0.1"
+description = "The Rust Ethereum Book"
+edition = "2018"
+
+[lib]
+
+[dependencies]
+ethers = { git = "https://github.com/gakonst/ethers-rs" }

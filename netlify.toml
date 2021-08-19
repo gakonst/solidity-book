@@ -1,0 +1,3 @@
+[build]
+command = "make build"
+publish = "book"

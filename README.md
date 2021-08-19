@@ -55,3 +55,10 @@ To run the tests:
 ```bash
 $ mdbook test
 ```
+
+## Deploying to Netlify
+
+```
+npm i -g netlify
+netlify deploy
+```

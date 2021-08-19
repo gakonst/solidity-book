@@ -1,6 +1,8 @@
 # The Rust Ethereum developer's playbook
 
-*Still in development*
+*Still in early development*
+
+Available live at: https://rust-ethereum-book.netlify.app/
 
 The Rust Ethereum developer's playbook is a guide to interacting with Ethereum for
 Rust developers, by Rust Ethereum developers.

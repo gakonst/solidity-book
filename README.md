@@ -1,11 +1,11 @@
-# The Rust Ethereum developer's playbook
+# The Senior Solidity Engineer's Book
 
 *Still in early development*
 
-Available live at: https://rust-ethereum-book.netlify.app/
+Available live at: https://solidity-book.netlify.app/
 
-The Rust Ethereum developer's playbook is a guide to interacting with Ethereum for
-Rust developers, by Rust Ethereum developers.
+The Senior Solidity Engineer's Book is a resource meant to transform you into a
+Senior Solidity Engineer.
 
 To view the book locally: `mdbook serve` and navigate to `http://localhost:3000`
 

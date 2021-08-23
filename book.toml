@@ -3,4 +3,10 @@ authors = ["Georgios Konstantopoulos"]
 language = "en"
 multilingual = false
 src = "src"
-title = "The Rust Ethereum Book"
+title = "The Senior Solidity Engineer's Book"
+
+[output.html]
+additional-js = [
+    "theme/solidity.js",
+]
+mathjax-support = true

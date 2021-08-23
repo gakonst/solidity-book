@@ -1,4 +1,9 @@
 # Summary
 
-- [Introduction](./1_introduction.md)
-    - [Hello World](./1_1_hello.md)
+- [Introduction](./01_intro/01_intro.md)
+    - [Installing the toolchain](./01_intro/02_toolchain.md)
+    - [What makes a good Solidity developer?](./01_intro/03_what_makes.md)
+
+-----------
+
+[Contributors](misc/contributors.md)

@@ -20,6 +20,7 @@ rust-lang/rust uses in [this file][rust-mdbook]. To get it:
 [rust-mdbook]: https://github.com/rust-lang/rust/blob/master/src/tools/rustbook/Cargo.toml
 
 ```bash
+$ cargo install mdbook-mermaid
 $ cargo install mdbook --vers [version-num]
 ```
 

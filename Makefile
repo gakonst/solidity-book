@@ -5,6 +5,7 @@ help: ## Show this help.
 
 build: ## Build the book directory
 	@cargo install mdbook || true
+	@cargo install mdbook-mermaid || true
 	@mdbook build
 
 test:

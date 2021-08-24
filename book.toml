@@ -8,7 +8,8 @@ title = "The Senior Solidity Engineer's Book"
 [output.html]
 additional-js = [
     "theme/solidity.js",
-    "theme/mermaid.min.js", "theme/mermaid-init.js"
+    "theme/mermaid.min.js",
+    "theme/mermaid-init.js",
 ]
 mathjax-support = true
 

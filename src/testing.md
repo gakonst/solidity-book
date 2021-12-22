@@ -1,4 +1,4 @@
-# Testing Best Practices
+# Smart Contract Testing
 
 * How to write tests in Foundry
     * How to set up test files (describe/it block analogies)

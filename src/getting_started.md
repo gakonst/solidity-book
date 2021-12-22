@@ -7,45 +7,45 @@ the reader, maybe could add indications as to what is required/optional reading?
 
 1. How does Ethereum work?
     1. [Ethereum Development Documentation](https://ethereum.org/en/developers/docs/)
-    2. [How does Ethereum work, anyway?](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369)
+    1. [How does Ethereum work, anyway?](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369)
 
-2. Basic Solidity (to write smart contracts):
+1. Basic Solidity (to write smart contracts):
     1. [CryptoZombies](https://cryptozombies.io/en/course/):
     A gentle introduction to Solidity via an interactive code school.
-    2. [Solidity Documentation](https://docs.soliditylang.org/en/latest): 
+    1. [Solidity Documentation](https://docs.soliditylang.org/en/latest): 
     The documentation is always up to date with the latest Solidty changes and syntax. It provides a great end-to-end description of the language. You MUST have read this resource in its entirety.
-    3. [Solidity by Example](https://solidity-by-example.org/):
+    1. [Solidity by Example](https://solidity-by-example.org/):
     A tour through Solidity's syntax via a set of illustrative examples.
-    4. [Learn Solidity in Y minutes](https://learnxinyminutes.com/docs/solidity/)
+    1. [Learn Solidity in Y minutes](https://learnxinyminutes.com/docs/solidity/)
     One-page example on Solidity's syntax.
-    5. [Solidity Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet)
+    1. [Solidity Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet)
     A cheatsheet.
 
 <!-- Should move to Foundry -->
 
-3. Hardhat & Typescript (to develop and test locally):
+1. Hardhat & Typescript (to develop and test locally):
     1. [Hardhat Documentation](https://hardhat.org/getting-started/): Hardhat is a smart contract development framework providing utilities
     for compiling, testing and deploying smart contracts written in Solidity with Javascript (JS) and Typescript (TS).
-    2. [Ethers.js Documentation](https://docs.ethers.io/v5/): Ethers.js is the most widely used and flexible development library
+    1. [Ethers.js Documentation](https://docs.ethers.io/v5/): Ethers.js is the most widely used and flexible development library
     for interacting with Ethereum from JS and TS
-    4. [Typescript cheatsheet](https://devhints.io/typescript): We will be using TS instead 
+    1. [Typescript cheatsheet](https://devhints.io/typescript): We will be using TS instead 
     of JS in order to leverage types to make our code more robust.
-    5. [Solidity Template](https://github.com/paulrberg/solidity-template/): An opinionated Hardhat + TS
+    1. [Solidity Template](https://github.com/paulrberg/solidity-template/): An opinionated Hardhat + TS
     repository set up including boilerplate and other popular tools 
 
-4. Smart contract patterns (to learn about the fundamental smart contract building blocks):
+1. Smart contract patterns (to learn about the fundamental smart contract building blocks):
     1. [Solidity Patterns](https://fravoll.github.io/solidity-patterns/) ([code](https://github.com/fravoll/solidity-patterns)): 
     A curated list of patterns which you will encounter in the wild.
-    2. [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/) ([code](https://github.com/openzeppelin/openzeppelin-contracts)):
+    1. [OpenZeppelin](https://docs.openzeppelin.com/contracts/1.x/) ([code](https://github.com/openzeppelin/openzeppelin-contracts)):
     A library of secure smart contracts ranging from access control, tokens, governance, proxies and more.
 
 1. Smart contract security (to learn about the mistakes others before you made): We *emphasize* the need to
 be familiar with the concepts in the links below. Security must be the number one priority in any smart contract developer's mindset.
     1. [Smart Contract Security Best Practices](https://consensys.github.io/smart-contract-best-practices/)
     A timeless must-read resource on "how to write secure smart contracts".
-    2. Reports by security auditors:
+    1. Reports by security auditors:
         1. [samczsun](https://samczsun.com)
-        2. [Trail of Bits](https://github.com/trailofbits/publications/tree/master/reviews)
-        3. [OpenZeppelin](https://blog.openzeppelin.com/security-audits/)
-        4. [Consensys Diligence](https://consensys.net/diligence/audits/)
+        1. [Trail of Bits](https://github.com/trailofbits/publications/tree/master/reviews)
+        1. [OpenZeppelin](https://blog.openzeppelin.com/security-audits/)
+        1. [Consensys Diligence](https://consensys.net/diligence/audits/)
 

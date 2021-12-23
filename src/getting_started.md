@@ -3,7 +3,7 @@
 Instead of re-hashing content which has been written about before, we instead provide a curated list of topics that we'll assume familiarty with from the reader.
 
 <!-- Should probably trim down the links to only the absolute necessary to not overwhelm
-the reader-->
+the reader, maybe could add indications as to what is required/optional reading?-->
 
 1. How does Ethereum work?
     1. [Ethereum Development Documentation](https://ethereum.org/en/developers/docs/)
@@ -21,6 +21,8 @@ the reader-->
     1. [Solidity Cheatsheet](https://github.com/manojpramesh/solidity-cheatsheet)
     A cheatsheet.
 
+<!-- Should move to Foundry -->
+
 1. Hardhat & Typescript (to develop and test locally):
     1. [Hardhat Documentation](https://hardhat.org/getting-started/): Hardhat is a smart contract development framework providing utilities
     for compiling, testing and deploying smart contracts written in Solidity with Javascript (JS) and Typescript (TS).
@@ -34,7 +36,7 @@ the reader-->
 1. Smart contract patterns (to learn about the fundamental smart contract building blocks):
     1. [Solidity Patterns](https://fravoll.github.io/solidity-patterns/) ([code](https://github.com/fravoll/solidity-patterns)): 
     A curated list of patterns which you will encounter in the wild.
-    1. [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/) ([code](https://github.com/openzeppelin/openzeppelin-contracts)):
+    1. [OpenZeppelin](https://docs.openzeppelin.com/contracts/1.x/) ([code](https://github.com/openzeppelin/openzeppelin-contracts)):
     A library of secure smart contracts ranging from access control, tokens, governance, proxies and more.
 
 1. Smart contract security (to learn about the mistakes others before you made): We *emphasize* the need to

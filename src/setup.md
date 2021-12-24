@@ -29,4 +29,4 @@ In addition, there's a few useful VS Code plugins:
 * [Solidity Visual Developer](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
 * [Solidity Metrics](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-metrics)
 
-Solidity unfortunately does not have a Language Server ([yet](https://github.com/ethereum/solidity/pull/11350)) to do automatic code completion.
+As of [Solidity v0.8.11](https://blog.soliditylang.org/2021/12/20/solidity-0.8.11-release-announcement/) you can configure the Solidity Language Server to report errors and warnings. However, this preview version of the Language Server is still a work in progress and features such as automatic code completion have not yet been added.

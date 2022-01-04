@@ -15,8 +15,8 @@ other than the one you have installed.
 
 * [Slither](https://github.com/crytic/slither#how-to-install) ([video guide](https://youtu.be/bakRWW05Uoc)): A static analyzer which
 will find low-hanging fruit issues in your code.
-* [Echidna](https://github.com/crytic/echidna) ([tutorial](https://medium.com/coinmonks/smart-contract-fuzzing-d9b88e0b0a05)): An Ethereum smart contract fuzzer, used for uncovering edge
-cases
+* [Echidna](https://github.com/crytic/echidna) ([tutorial](https://medium.com/coinmonks/smart-contract-fuzzing-d9b88e0b0a05)): An Ethereum smart contract fuzzer, used for uncovering edge cases.
+* [prettier-solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): A Prettier plugin for automatically formatting your Solidity code.
 
 ## Plugins for editors
 
@@ -24,6 +24,7 @@ Syntax highlighting is provided in the following plugins per editor:
 * [Vim](https://github.com/TovarishFin/vim-solidity)
 * [VS Code](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)
 * [Sublime](https://packagecontrol.io/packages/Ethereum)
+* [JetBrains](https://plugins.jetbrains.com/plugin/9475-solidity/)
 
 In addition, there's a few useful VS Code plugins:
 * [Solidity Visual Developer](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)

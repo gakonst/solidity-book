@@ -16,7 +16,7 @@ other than the one you have installed.
 * [Slither](https://github.com/crytic/slither#how-to-install) ([video guide](https://youtu.be/bakRWW05Uoc)): A static analyzer which
 will find low-hanging fruit issues in your code.
 * [Echidna](https://github.com/crytic/echidna) ([tutorial](https://medium.com/coinmonks/smart-contract-fuzzing-d9b88e0b0a05)): An Ethereum smart contract fuzzer, used for uncovering edge cases.
-* [prettier-solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): A Prettier plugin for automatically formatting your Solidity code.
+* [prettier-solidity](https://github.com/prettier-solidity/prettier-plugin-solidity) ([Example Configuration](https://github.com/sambacha/prettier-config-solidity/blob/master/README.md)): A Prettier plugin for automatically formatting your Solidity code.
 
 ## Plugins for editors
 

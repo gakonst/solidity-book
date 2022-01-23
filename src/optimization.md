@@ -2,7 +2,7 @@
 
 By - ControlCplusControlV
 
-Optimizing Gas Usage in Solidity is a deep rabbit hole, from using msg.value as a cheaper zero to actually abi packing with structs, it can be exhaustive. So it's important to save your time optimizing, and optimizing the architecture of your dapp before you spend time on micro-optimizations.
+Optimizing Gas Usage in Solidity is a deep rabbit hole, from using msg.value as a cheaper zero to abi packing with structs, it can be exhaustive. So it's important to save your time optimizing, and optimizing the architecture of your dapp before you spend time on micro-optimizations.
 
 Also, optimizations often require a near exhaustive knowledge of the EVM and Solidity Compiler, so learning how the compiler works so you can help it is important. I recommend listening to this talk for an in-depth look at the solc compiler which can be found [here](https://www.youtube.com/watch?v=RxL_1AfV7N4).
 
@@ -103,9 +103,9 @@ To save gas within your actual function execution, you will often have to inline
 
 Some other optimizations when working with math in no particular order
 
-- Avoid dividing and multiplying by multiples of 2, instead use bitshifting as `5 * 2` is the same as `5 << 1`, but uses less gas
-- Avoid using >= and <=, instead use !< and !> as it is algebraiclly equivalent when working with uints but uses less gas. So `x >= y` becomes `x !< y`
+- Avoid dividing and multiplying by multiples of 2, instead use bit-shifting as `5 * 2` is the same as `5 << 1`, but uses less gas
+- Avoid using >= and <=, instead, use !< and !> as it is algebraically equivalent when working with uints but uses less gas. So `x >= y` becomes `x !< y`
 - Where possible use != instead of checking if a value is greater than or less than. So in a scenario where x is either 10, or some large number, make sure to use `x != 10` rather than `x > 10`
-- In counter functions or other scenarios where your numbers aren't prone to overflowing (ie counting NFT number out of a collection of 10,000), wrap your math in an `unsafe {}` block
+- In counter functions or other scenarios where your numbers aren't prone to overflowing (ie counting NFT numbers out of a collection of 10,000), wrap your math in an `unsafe {}` block
 - Integers are significantly more expensive than their unsigned counterparts because instead of leading 0s in their byte representation, the leading byte they hold is f, and in the EVM non zero bytes end up being more expensive. 
 
